@@ -10,10 +10,11 @@ def division(a, b):
     return a / b
 
 # This function provides a basic calculator for two numbers.    
-# Print a welcome message for the user
 def calculator():
+# Print a welcome message for the user
     print("Welcome to the Basic 2 number adding Calculator!")
     print("Select operation:")
+# User choice for the type of operation 
     print("1. Add")
     print("2. Subtract")
     print("3. Multiply")
