@@ -9,8 +9,10 @@ def division(a, b):
         return "Error: Division by zero is not allowed."
     return a / b
 
+# This function provides a basic calculator for two numbers.    
+# Print a welcome message for the user
 def calculator():
-    print("Welcome to the Basic Calculator!")
+    print("Welcome to the Basic 2 number adding Calculator!")
     print("Select operation:")
     print("1. Add")
     print("2. Subtract")
@@ -18,7 +20,6 @@ def calculator():
     print("4. Divide")
 
     while True:
-        try:
             choice = input("Enter choice (1/2/3/4 or 'x' to quit): ")
             if choice.lower() == 'x':
                 print("Exiting calculator. Thank you for using the calculator")
