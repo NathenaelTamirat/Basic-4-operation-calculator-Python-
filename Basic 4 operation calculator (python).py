@@ -1,3 +1,4 @@
+# Create a function that return the value based on operation 
 def addition(a, b):
     return a + b
 def subtraction(a, b):
@@ -20,6 +21,7 @@ def calculator():
     print("3. Multiply")
     print("4. Divide")
 
+# Create while loop 
     while True:
             choice = input("Enter choice (1/2/3/4 or 'x' to quit): ")
             if choice.lower() == 'x':
